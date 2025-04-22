@@ -63,6 +63,6 @@ createBtn.addEventListener('click', () => {
     if (!isNaN(gridSize) && gridSize > 0) {
         createGrid(gridSize);
     } else {
-        alert('Enter a valid number dipshit')
+        alert('Enter a valid number')
     }
 });
